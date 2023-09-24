@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ITEM JS</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1 id="header"> Add Items</h1>
+      </header>
+      <form id="form">
+        <div id="form-control">
+          <input type="text", id="from_name", placeholder="Enter Item">
+
+          <select id="priority-input" name="priority" class="form-input">
+            <option value="0">Select Priority</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          
+        </div>
+        <div id="form-control-btn">
+          <br><br>
+          <button type="submit" id="btn" >Add Item</button>
+        </div>
+        <div id="form-input-fielter">
+          <input type="text", id="from_filter", placeholder="Filter Item">
+        </div>
+        <ul id="item-list" class="items">
+          <!-- <li>
+            A
+            <button class="remove-item btn-link text-red" id = 'btn2'>
+              <i class="fa-solid fa-xmark" ></i>
+            </button>
+          </li>
+          <li>
+            B
+            <button class="remove-item btn-link text-red" id = 'btn2'>
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+          <li>
+            C
+            <button class="remove-item btn-link text-red" id = 'btn2'>
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+          <li>
+            D
+            <button class="remove-item btn-link text-red" id = 'btn2'>
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li> -->
+        </ul>
+        
+      </form>
+      <div id="AllClear">
+        <button type="submit" id="btn-clear">Clear All</button>
+      </div>
+
+      </form>
+
+      
+    </div>
+    
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>

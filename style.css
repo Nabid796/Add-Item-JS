@@ -1,0 +1,103 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #3b3b3b;
+
+}
+
+#from_name, #priority-input{
+  width: 50%;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #695e5e;
+  border-radius: 5px;
+  outline: none;
+
+}
+#from_filter{
+  width: 50%;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0px solid #695e5e;
+  outline: none;
+  border-bottom: 1px solid #695e5e;
+}
+header{
+  display: flex;
+  color: #ffebeb;
+  flex-flow: nowrap;
+  justify-content: center;
+}
+#btn{
+  background-color: #333;
+  color: #ffebeb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#btn:hover, #btn-clear:hover{
+  background-color: #8d7272; 
+}  
+
+.text-red{
+  color: red;
+}
+.items, #form-control, #form-input-fielter, #form-control-btn{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-clear{
+  background-color: transparent;
+  color: #ffebeb;
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#AllClear{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.items li{
+  display: flex;
+  color: #f3bcbc;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  border: 1px solid green;
+  padding: 10px 15px;
+  border: 1px solid #ffffff;
+  margin: 0 5px 20px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 700;
+
+}
+
+.edit {
+  
+background-color: #fff68f
+
+}
+
+@media (max-width: 500px){
+  .items li{
+    width: 100%;
+  }
+}
